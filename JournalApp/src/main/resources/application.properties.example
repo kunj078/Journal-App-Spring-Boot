@@ -1,0 +1,10 @@
+spring.application.name=JournalApp
+#spring.data.mongodb.host=localhost
+#spring.data.mongodb.port=27017
+spring.data.mongodb.uri=mongo-uri-string
+spring.data.mongodb.database=db-name
+spring.data.mongodb.auto-index-creation=true
+weather.api.key=
+server.servlet.context-path=/journal
+#logging.level.JournalApp=DEBUG
+#logging.level.root=ERROR
