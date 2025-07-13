@@ -3,6 +3,9 @@ package JournalApp.JournalApp.controller;
 import JournalApp.JournalApp.Entity.User;
 import JournalApp.JournalApp.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
